@@ -22,18 +22,29 @@ export default function Skill({ skill }) {
         <Element name="skill">Skills</Element>
       </Typography>
       <div className="skill-container">
-        {skillList.map((skill, i) => (
+        {/* <div>asssssssssssssd</div>
+        <div>asd</div>
+        <div>asd</div>
+        <div>asd</div>
+        <div>asd</div>
+        <div>asd</div>
+        <div>assssssssssssssssd</div>
+        <div>asd</div> */}
+        {
+          skillList && skillList.map((skill, i) => {
+            return <div key={i} className="imagewrap" >
+              <img className="imgWrap" src={skill.value} alt="skill"/>
+            </div>
+          })
+        }
+
+        {/* {skillList.map((skill, i) => (
           <div className="skill-img" key={i}>
-            <SvgIcon
-              titleAccess={skill.name}>
-            </SvgIcon>
             <img src={skill.value}
-              style={{ width: "auto", height: "100%" }}
-              className="svg-icon"
               viewBox="0 0 24 24"
               color="primary" />
           </div>
-        ))}
+        ))} */}
       </div>
     </React.Fragment>
   );

@@ -25,9 +25,10 @@ const AboutMe = () => {
         <h1 style={{ fontWeight: "lighter" }}>Aya Abu-Yosef</h1>
         <div className="subtitle">
           <h3>A pharmacist.</h3>
-          <p>
-            contribute, achieving goals, objectives design of
-            appropriate intervention, monitoring and evaluation of practices
+          <p style={{ textAlign:"left" }}>
+            If your weakness lies in your intellect then you have to make doubly sure that you gain all the information and skills you need to prepare for your mission.I have Medical Representative with almost three years of experience. Successful at finding
+            new clients and making effective calls and presentation as well as maintaining numerous relationships.
+            Adept at explaining products and selling solutions.I want to add value to the firm, I will work in and help it to achieve its organizational goals, work very well with others, I always told I'm a highly energetic person with great communication skills.
           </p>
         </div>
       </div>
