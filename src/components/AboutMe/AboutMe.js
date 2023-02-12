@@ -21,14 +21,13 @@ const AboutMe = () => {
             </Element> */}
       </Typography>
       <div className="name">
-        <img src="https://media.discordapp.net/attachments/762721371809382421/793101111309500466/11334138_10204951267766836_8466014935568855448_o.jpg?width=473&height=473" alt="profile_photo" className="img" />
-        <h1 style={{ fontWeight: "lighter" }}>Ameed Asmah</h1>
+        <img src="https://media.discordapp.net/attachments/938405759996276806/1074092461632262184/123.jpg" alt="profile_photo" className="img" />
+        <h1 style={{ fontWeight: "lighter" }}>Aya Abu-Yosef</h1>
         <div className="subtitle">
-          <h3>I am a Front-End developer.</h3>
+          <h3>A pharmacist.</h3>
           <p>
-            Creating Beautiful things with quality and elegance! <br />
-             My favourite technology is
-            React
+            contribute, achieving goals, objectives design of
+            appropriate intervention, monitoring and evaluation of practices
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
-// import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
+import WorkRoundedIcon from '@material-ui/icons/WorkRounded';
 import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import Typography from '@material-ui/core/Typography';
@@ -106,8 +106,8 @@ export default function ScrollableTabsButtonForce() {
 					centered={tabTypes[1]}
 				>
 					<Tab onClick={() => scrollFunc("about-me")} label='About Me' icon={<PersonPinIcon />} {...a11yProps(0)} />
-					<Tab onClick={() => scrollFunc("projects")} label='Projects' icon={<FavoriteIcon />} {...a11yProps(1)} />
-					{/* <Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} /> */}
+					{/* <Tab onClick={() => scrollFunc("projects")} label='Projects' icon={<FavoriteIcon />} {...a11yProps(1)} /> */}
+					<Tab  onClick={()=>scrollFunc("experience")} label='Experience' icon={<WorkRoundedIcon />} {...a11yProps(2)} />
 					<Tab onClick={() => scrollFunc("skill")} label='Skill' icon={<FavoriteIcon />} {...a11yProps(3)} />
 					<Tab onClick={() => scrollFunc("contact-me")} label='Contact Me' icon={<QuestionAnswerRoundedIcon />} {...a11yProps(4)} />
 					<Tab onClick={() => scrollFunc("resume")} label='Find Me' icon={<AssignmentIndIcon />} {...a11yProps(5)} />

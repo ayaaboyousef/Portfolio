@@ -2,25 +2,27 @@ import React, { Component } from "react";
 import ScrollableTabsButtonForce from "./components/Navigation/Navigation";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ProjectCardList from "./components/ProjectCardList/ProjectCardList";
+import Experience from "./components/Experience/Experience";
 import Skill from "./components/Skill/Skill";
 import ContactForm from "./components/Contact/Contact";
 import Resume from './components/resume/Resume.jsx'
 import "./App.css";
 import Section from "./components/Section/Section.component";
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-     <ScrollableTabsButtonForce />
+class App extends Component { //
+  render() {
+    
+    return (
+      <React.Fragment>
+        <ScrollableTabsButtonForce />
         <Section>
           <AboutMe />
         </Section>
+    
         <Section bg>
-          <ProjectCardList />
+          <Experience />
         </Section>
-      
-        <Section bg>
+        <Section >
           <Skill />
         </Section>
         <Section>
@@ -29,8 +31,9 @@ function App() {
         <Section>
           <Resume />
         </Section>
-    </div>
-  );
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;

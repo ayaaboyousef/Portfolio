@@ -29,13 +29,13 @@ export default function Resume() {
                 marginTop: "35px"
 
             }}>
-                <a href="https://drive.google.com/file/d/1Zwx3Gbu6WwkP4_bkQ_COlV80Qx1SwJtj/view?usp=sharing" target="_blank" rel="noreferrer" >
+                <a href="https://drive.google.com/file/d/1xNwBcpgno20-MUx5i1LCqME3bYSA7SH1/view?usp=sharing" target="_blank" rel="noreferrer" >
                     <AssignmentIndIcon style={{ height: "60px", width: "120px" }} color="primary" />
                 </a>
-                <a href="https://github.com/ameedasmah" target="_blank" rel="noreferrer" >
+                {/* <a href="https://github.com/ameedasmah" target="_blank" rel="noreferrer" >
                     <GitHubIcon color="primary" style={{ paddingLeft: "6px", paddingRight: "6px", height: "60px", width: "120px" }} />
-                </a>
-                <a href="https://www.linkedin.com/in/ameed-asmah-1532431b7/" target="_blank" rel="noreferrer" >
+                </a> */}
+                <a href="https://www.linkedin.com/in/aya-abuyousef/" target="_blank" rel="noreferrer" >
                     <LinkedInIcon color="primary" style={{ height: "60px", width: "120px" }} />
                 </a>
             </div>
@@ -50,11 +50,11 @@ export default function Resume() {
             }}>
                 <div>
                     <CallIcon color="primary" />
-                    : (+970)-599-043-747
+                    : (+970)-592-606708
                     </div>
                 <div>
                     <EmailIcon color="primary" />
-                     ameed.asmah1@gmail.com
+                     aya.abuyosef@gmail.com
                     </div>
             </div>
         </Typography>
