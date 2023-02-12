@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
+import ScrollableTabsButtonForce from "./components/Navigation/Navigation";
+import AboutMe from "./components/AboutMe/AboutMe";
+import ProjectCardList from "./components/ProjectCardList/ProjectCardList";
+import Skill from "./components/Skill/Skill";
+import ContactForm from "./components/Contact/Contact";
+import Resume from './components/resume/Resume.jsx'
+import "./App.css";
+import Section from "./components/Section/Section.component";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <ScrollableTabsButtonForce />
+        <Section>
+          <AboutMe />
+        </Section>
+        <Section bg>
+          <ProjectCardList />
+        </Section>
+      
+        <Section bg>
+          <Skill />
+        </Section>
+        <Section>
+          <ContactForm />
+        </Section>
+        <Section>
+          <Resume />
+        </Section>
     </div>
   );
 }
